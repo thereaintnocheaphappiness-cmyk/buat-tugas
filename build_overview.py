@@ -837,3 +837,168 @@ output_path = '/projects/sandbox/buat-tugas/Overview_Proses_Alur_Bisnis_Pabrik_G
 prs.save(output_path)
 print(f"✅ Presentasi berhasil dibuat: {output_path}")
 print(f"   Total slides: {len(prs.slides)}")
+
+
+# ============================================================
+# SLIDE 15b (INSERT BEFORE SUMMARY): PT SINERGI GULA NUSANTARA
+# We'll add this as slide before the summary/closing
+# First, let's re-insert it by modifying the save section
+# ============================================================
+
+# Actually, we need to add slides 15 and 16 which include SGN info
+# The file already has slides 1-14, let's add the SGN slide, then summary, then closing
+
+# ============================================================
+# SLIDE 15: PT SINERGI GULA NUSANTARA (SGN) — UNIT KERJA
+# ============================================================
+slide_sgn = prs.slides.add_slide(prs.slide_layouts[6])
+set_slide_bg(slide_sgn, WHITE)
+add_title_bar(slide_sgn, "PT SINERGI GULA NUSANTARA (SGN)",
+              "SugarCo — Holding Pabrik Gula BUMN Indonesia")
+
+bullets_sgn_left = [
+    "▪ Didirikan: 17 Agustus 2021 di bawah PTPN III (Holding)",
+    "▪ Nama resmi: PT Sinergi Gula Nusantara (SGN)",
+    "▪ Bagian dari 88 Program Kementerian BUMN 2020-2023",
+    "▪ Misi: Pencapaian Swasembada Gula Nasional",
+    "",
+    "▪ Skala Operasi:",
+    "   – 43 Pabrik Gula tersebar di Jawa & luar Jawa",
+    "   – Areal HGU/TS: ~56.000 hektar",
+    "   – Berasal dari 7 anak perusahaan PTPN",
+    "",
+    "▪ Tantangan yang Dihadapi SGN:",
+    "   – Aspek operasi belum terstandarisasi",
+    "   – Skala & utilisasi pabrik bervariasi",
+    "   – Ketergantungan supply tebu petani rakyat",
+    "",
+    "▪ Inisiatif Strategis:",
+    "   – Kolaborasi bioetanol dengan Pertamina NRE (2024)",
+    "   – Kerjasama UGM untuk optimasi lahan KHDTK",
+    "   – Digitalisasi via SIMPG, HCIS, ERMS, e-Contract",
+]
+add_body_text(slide_sgn, Inches(0.8), Inches(1.6), Inches(7.5), Inches(5.8), bullets_sgn_left, Pt(12))
+
+# Right side: Unit Kerja regions
+regions = [
+    ("JAWA TIMUR", "PG terbanyak: Ngadirejo,\nDjatiroto, Semboro, dll.", DARK_GREEN),
+    ("JAWA TENGAH", "PG Comal, Sragi,\nTasikmadu, dll.", MID_GREEN),
+    ("JAWA BARAT", "PG Subang, Rajawali,\nJatitujuh, dll.", SUGARCANE),
+    ("LAMPUNG &\nLUAR JAWA", "PG Bunga Mayang,\nNTT (bioetanol)", GOLD),
+]
+ry = Inches(1.8)
+for i, (region, desc, col) in enumerate(regions):
+    add_shape_box(slide_sgn, Inches(9), ry + i * Inches(1.35), Inches(3.8), Inches(1.1),
+                  col, f"{region}\n{desc}", Pt(11), WHITE, True)
+
+# Key stats at bottom
+stats_sgn = [
+    ("43\nPabrik Gula", DARK_GREEN),
+    ("56.000 ha\nAreal Tebu", MID_GREEN),
+    ("7 PTPN\nSubsidiari Asal", SUGARCANE),
+    ("Target:\nSwasembada\nGula 2025-2026", GOLD),
+]
+sx = Inches(0.6)
+for i, (lbl, col) in enumerate(stats_sgn):
+    add_shape_box(slide_sgn, sx + i * Inches(3.2), Inches(6.5), Inches(3.0), Inches(0.85),
+                  col, lbl, Pt(11), WHITE, True)
+
+# ============================================================
+# SLIDE 16: KEY TAKEAWAYS / SUMMARY (updated)
+# ============================================================
+slide15 = prs.slides.add_slide(prs.slide_layouts[6])
+set_slide_bg(slide15, WHITE)
+add_title_bar(slide15, "RANGKUMAN & KEY TAKEAWAYS",
+              "6 Poin Penting yang Harus Diingat")
+
+takeaways = [
+    ("1", "Bisnis Terintegrasi", "Pabrik gula = hulu (kebun) + proses (pabrik) + hilir (distribusi). Satu rantai nilai yang saling tergantung.", DARK_GREEN),
+    ("2", "Multi-Revenue Stream", "Bukan hanya gula — molasses, bagasse, blotong, dan listrik menyumbang 15-25% revenue tambahan.", MID_GREEN),
+    ("3", "KPI Raja = Rendemen", "Target 8-10%. Kenaikan 1% rendemen = peningkatan profit signifikan.", SUGARCANE),
+    ("4", "SGN: 43 Pabrik Gula", "PT Sinergi Gula Nusantara mengelola 43 PG dari 7 PTPN, areal 56 ribu ha, menuju swasembada gula.", LIGHT_GREEN),
+    ("5", "Tantangan Nyata", "Produktivitas rendah, teknologi tua, margin tipis. Indonesia masih impor 50% gula.", GOLD),
+    ("6", "Peluang Besar", "Digitalisasi, modernisasi, co-gen, diversifikasi, bioetanol -> potensi +20-30% EBITDA.", BROWN),
+]
+
+ty = Inches(1.5)
+for i, (num, title, desc, color) in enumerate(takeaways):
+    add_shape_box(slide15, Inches(0.6), ty + i * Inches(0.95), Inches(0.55), Inches(0.55),
+                  color, num, Pt(16), WHITE, True)
+    txb = slide15.shapes.add_textbox(Inches(1.3), ty + i * Inches(0.95), Inches(11), Inches(0.85))
+    tf = txb.text_frame
+    tf.word_wrap = True
+    p = tf.paragraphs[0]
+    p.text = title
+    p.font.size = Pt(15)
+    p.font.bold = True
+    p.font.color.rgb = color
+    p.font.name = FONT_TITLE
+    p2 = tf.add_paragraph()
+    p2.text = desc
+    p2.font.size = Pt(11)
+    p2.font.color.rgb = DARK_TEXT
+    p2.font.name = FONT_BODY
+
+# ============================================================
+# SLIDE 17: CLOSING SLIDE
+# ============================================================
+slide16 = prs.slides.add_slide(prs.slide_layouts[6])
+set_slide_bg(slide16, DARK_GREEN)
+
+txBox = slide16.shapes.add_textbox(Inches(2), Inches(2.5), Inches(9), Inches(2))
+tf = txBox.text_frame
+p = tf.paragraphs[0]
+p.text = "TERIMA KASIH"
+p.font.size = Pt(44)
+p.font.color.rgb = WHITE
+p.font.bold = True
+p.font.name = FONT_TITLE
+p.alignment = PP_ALIGN.CENTER
+
+p2 = tf.add_paragraph()
+p2.text = "atas perhatian Bapak/Ibu"
+p2.font.size = Pt(20)
+p2.font.color.rgb = RGBColor(0xA5, 0xD6, 0xA7)
+p2.font.name = FONT_BODY
+p2.alignment = PP_ALIGN.CENTER
+
+div = slide16.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(4.5), Inches(4.8), Inches(4), Inches(0.05))
+div.fill.solid()
+div.fill.fore_color.rgb = GOLD
+div.line.fill.background()
+div.shadow.inherit = False
+
+txBox2 = slide16.shapes.add_textbox(Inches(2), Inches(5.0), Inches(9), Inches(1.5))
+tf2 = txBox2.text_frame
+p3 = tf2.paragraphs[0]
+p3.text = "Sesi Tanya Jawab"
+p3.font.size = Pt(22)
+p3.font.color.rgb = GOLD
+p3.font.bold = True
+p3.font.name = FONT_TITLE
+p3.alignment = PP_ALIGN.CENTER
+
+p4 = tf2.add_paragraph()
+p4.text = "Silakan ajukan pertanyaan atau berikan masukan"
+p4.font.size = Pt(14)
+p4.font.color.rgb = RGBColor(0xC8, 0xE6, 0xC9)
+p4.font.name = FONT_BODY
+p4.alignment = PP_ALIGN.CENTER
+
+# Source attribution
+txBox3 = slide16.shapes.add_textbox(Inches(2), Inches(6.8), Inches(9), Inches(0.5))
+tf3 = txBox3.text_frame
+p5 = tf3.paragraphs[0]
+p5.text = "Sumber data SGN: sinergigula.com | The Jakarta Post | UGM.ac.id"
+p5.font.size = Pt(10)
+p5.font.color.rgb = RGBColor(0x81, 0xC7, 0x84)
+p5.font.name = FONT_BODY
+p5.alignment = PP_ALIGN.CENTER
+
+# ============================================================
+# SAVE
+# ============================================================
+output_path = '/projects/sandbox/buat-tugas/Overview_Proses_Alur_Bisnis_Pabrik_Gula.pptx'
+prs.save(output_path)
+print(f"✅ Presentasi berhasil dibuat: {output_path}")
+print(f"   Total slides: {len(prs.slides)}")
