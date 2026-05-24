@@ -1,0 +1,88 @@
+================================================================
+  CHEAT SHEET PRESENTASI — OVERVIEW BISNIS PABRIK GULA
+  (Ringkas. Baca 5 menit sebelum presentasi.)
+================================================================
+
+[1] BIG PICTURE (kalimat pembuka yang aman)
+"Pabrik gula adalah bisnis terintegrasi dari kebun, pabrik,
+sampai distribusi. Output utamanya gula, plus 4 produk samping
+yang menyumbang 15–25% revenue."
+
+[2] ANGKA WAJIB HAFAL
+- Rendemen target ............... 8–10%
+- Recovery pol .................. 92–96%
+- Pol losses .................... < 2,5%
+- Kapasitas giling .............. 3.000–6.000 TCD
+- Musim giling .................. April–November (6–7 bulan)
+- Lead time tebu→gula ........... 24–48 jam
+- Margin EBITDA ................. 15–25%
+- HPP gula ...................... Rp 9.000–11.000 / kg
+- Produksi nasional ............. ~2,2 juta ton/tahun
+- Konsumsi nasional ............. ~5–6 juta ton/tahun
+- Impor ......................... ~50%
+- Bagasse / 100 ton tebu ........ ~30 ton (bahan bakar boiler)
+- Molasses / 100 ton tebu ....... ~4–5 ton
+
+[3] 9 TAHAPAN PROSES (urut!)
+1. Penerimaan tebu (timbang + cek pol/brix)
+2. Cane handling (cacah & siapkan)
+3. Milling — giling, hasil: nira mentah + ampas
+4. Clarification — pemurnian, hasil: nira jernih + blotong
+5. Evaporation — uapkan air, brix 12% → 65%
+6. Crystallization — bentuk kristal di vacuum pan
+7. Centrifugation — pisahkan kristal & molasses
+8. Drying & cooling — turunkan kadar air <0,5%
+9. Packaging — kemas (50 kg) → gudang → distribusi
+
+[4] PRODUK & BY-PRODUCT
+Utama: Gula SHS (pol ≥99,3%) → 70–80% revenue
+Samping:
+- Molasses → pakan, alkohol, MSG (10–15%)
+- Bagasse → bahan bakar + co-gen listrik (5–10%)
+- Blotong → pupuk organik (2–3%)
+- Listrik surplus → dijual ke PLN (3–5%)
+
+[5] 6 DIVISI OPERASIONAL
+Tanaman | Pabrikasi | Instalasi | Keuangan | SDM & Umum | Pemasaran
+
+[6] 4 KPI YANG WAJIB DI UJUNG LIDAH
+- Rendemen          → KPI raja, menentukan profit
+- Recovery pol      → seberapa efektif ekstraksi
+- Kapasitas giling  → throughput pabrik (TCD)
+- Pol losses        → gula yang hilang di proses
+
+[7] TANTANGAN INDUSTRI (top 4)
+1. Produktivitas rendah (RI 6–8% vs Thailand 10–12%)
+2. Impor tinggi (~50%)
+3. Teknologi tua (banyak mesin >30 tahun)
+4. Margin tipis (HPP tinggi vs harga regulasi)
+
+[8] PELUANG IMPROVEMENT (top 4)
+1. Digitalisasi (IoT, SCADA, AI)            → +10–15% efisiensi
+2. Modernisasi mesin (boiler, crystallizer) → +1–2% rendemen
+3. Co-generation listrik                    → +5–10% revenue
+4. Diversifikasi (bioetanol, refined sugar) → +15–25% revenue
+Total potensi: +20–30% EBITDA
+
+[9] TIPS PRESENTASI
+DO:
++ Ucap angka konkret (8–10%, 92–96%) — bukan "sekitar"
++ Gunakan analogi: "100 ton tebu → 8–10 ton gula"
++ Hubungkan dengan bisnis (revenue, margin, EBITDA)
++ Jika ragu: "Saya cek datanya, lalu saya update Pak/Bu"
+
+DON'T:
+- Hindari paragraf panjang
+- Jangan masuk ke rumus kimia detail
+- Jangan baca slide kata per kata
+- Jangan ngotot kalau salah—koreksi diri itu profesional
+
+[10] STRUKTUR JAWAB SINGKAT (kalau ditanya)
+Format: ANGKA + KONTEKS + IMPLIKASI BISNIS
+Contoh: "Rendemen kita 8% (angka), artinya 8 ton gula per
+100 ton tebu (konteks), masih ada gap 2% ke target 10% =
+peluang revenue tambahan ratusan juta per musim (implikasi)."
+
+================================================================
+GOOD LUCK! Tarik nafas. Senyum. Sampaikan dengan percaya diri.
+================================================================

@@ -1,0 +1,201 @@
+================================================================
+  CUE CARD PER-SLIDE  — Bawa saat presentasi
+  Format: [Slide N] Judul → Poin yang harus diucap → Transisi
+================================================================
+
+[01] COVER
+Sapa: "Selamat pagi/siang Bapak/Ibu. Hari ini saya presentasi
+overview alur bisnis pabrik gula. Durasi sekitar 15 menit,
+saya buka untuk diskusi di akhir."
+→ Lanjut: "Ini agendanya."
+
+[02] AGENDA (6 topik)
+"Saya bagi jadi 6 bagian: industri, value chain, proses, produk,
+divisi & KPI, lalu tantangan & peluang."
+→ Lanjut: "Mulai dari snapshot industrinya."
+
+[03] INDUSTRI GULA
+"4 angka kunci: produksi 2,2 juta ton, konsumsi 5–6 juta ton,
+impor ~50%, dan ada ~60 pabrik aktif."
+"Kita punya gap besar antara produksi dan konsumsi—ini akar
+kenapa impor tinggi."
+→ Lanjut: "Sekarang lihat value chain-nya."
+
+[04] VALUE CHAIN
+"Ada 4 blok: hulu (kebun), proses (pabrik), hilir (distribusi),
+plus by-product."
+KEY POINT: "By-product menyumbang 15–25% revenue. Bukan limbah,
+tapi sumber uang tambahan."
+→ Lanjut: "Lihat alur end-to-end-nya."
+
+[05] ALUR END-TO-END (timeline)
+"Dari tanam (10–14 bulan), tebang, angkut (<24 jam), giling
+(12–24 jam), olah, packing, sampai jual."
+KEY POINT: "Lead time tebu tebang sampai gula = 24–48 jam.
+Setiap jam delay = pol turun 0,1%."
+→ Lanjut: "Detail prosesnya 9 tahapan."
+
+[06] 9 TAHAPAN PROSES
+"Dari penerimaan tebu sampai packaging."
+"Yang paling kritikal: milling (ekstraksi gula), clarification
+(pemurnian), dan crystallization (bentuk kristal)."
+→ Lanjut: "Lebih detail input-output tiap tahapnya."
+
+[07] TABEL DETAIL TAHAPAN
+"Tabel ini ringkasan input → output tiap tahap."
+KEY POINT: "Total losses target <2,5%. Kalau lebih, ada bocoran
+pol di salah satu stasiun yang harus dikejar."
+→ Lanjut: "Hasil akhirnya: produk utama + by-product."
+
+[08] PRODUK & BY-PRODUCT
+"Produk utama: gula SHS, pol ≥99,3%, ~70–80% revenue."
+"4 by-product: molasses, bagasse, blotong, listrik co-gen."
+KEY POINT: "Bagasse jadi bahan bakar boiler—pabrik gula
+hampir self-sufficient untuk energi."
+→ Lanjut: "Siapa yang mengoperasikan ini semua?"
+
+[09] DIVISI ORGANISASI
+"6 divisi: Tanaman, Pabrikasi, Instalasi, Keuangan, SDM, Pemasaran."
+"Operasi 24/7 saat musim giling, shift 3×8 jam."
+"Off-season untuk maintenance & overhaul."
+→ Lanjut: "Bagaimana kita tahu performanya bagus? Lihat KPI."
+
+[10] KPI DASAR
+"4 KPI utama: Rendemen (8–10%), Recovery (92–96%), Kapasitas
+(3–6 ribu TCD), Losses (<2,5%)."
+KEY POINT: "Rendemen adalah KPI raja. Naik 1% bisa naikkan
+profit double-digit."
+→ Lanjut: "Tapi ada hambatan operasional."
+
+[11] BOTTLENECK
+"6 bottleneck: kualitas tebu, breakdown mesin, antrian,
+cuaca, SDM, kapasitas."
+"Top 2: kualitas tebu rendah & breakdown mesin."
+"Mitigasi: preventive maintenance, QC ketat, training."
+→ Lanjut: "Skala lebih besar—tantangan industrinya."
+
+[12] TANTANGAN INDUSTRI
+"6 tantangan: produktivitas, impor, teknologi tua, margin
+tipis, iklim, regenerasi petani."
+"Akar masalah: produktivitas. Itu sebabnya impor tinggi."
+→ Lanjut: "Tapi banyak peluang."
+
+[13] PELUANG IMPROVEMENT
+"5 peluang: digitalisasi, modernisasi mesin, co-gen,
+diversifikasi, backward integration."
+KEY POINT: "Quick win paling realistis: digitalisasi
+(murah, cepat). Total potensi EBITDA naik 20–30%."
+→ Lanjut: "Bagaimana semua ini jadi uang?"
+
+[14] REVENUE & COST
+"Revenue: gula 75% + molasses 12% + listrik 8% + lainnya 5%."
+"Biaya terbesar: bahan baku tebu 55%."
+"Margin EBITDA 15–25%, break-even di rendemen 7,5%."
+→ Lanjut: "Apa yang dimonitor manajemen tiap hari?"
+
+[15] MONITORING MANAJEMEN
+"3 layer: harian (kapasitas, rendemen, antrian), mingguan
+(target vs actual, K3), bulanan (cash flow, EBITDA)."
+"Sistemnya: SCADA + laporan operator + meeting mingguan."
+→ Lanjut: "Mari saya tutup dengan kesimpulan."
+
+[16] KESIMPULAN
+"5 takeaway: bisnis terintegrasi, multi revenue, KPI raja
+rendemen, tantangan utama, peluang besar."
+"Terima kasih, Bapak/Ibu. Saya senang menerima pertanyaan
+atau masukan."
+[SENYUM. KONTAK MATA. JEDA.]
+
+================================================================
+PREDIKSI Q&A — JAWABAN SINGKAT
+================================================================
+
+Q: Berapa rendemen kita?
+A: Target 8–10%. Kalau aktual <8%, ada masalah di kualitas
+   tebu atau efisiensi pabrik.
+
+Q: Kenapa Indonesia masih impor gula?
+A: Tiga alasan: produktivitas rendah (rendemen 6–8% vs
+   Thailand 10–12%), kapasitas pabrik terbatas, dan biaya
+   produksi tinggi.
+
+Q: By-product paling menguntungkan apa?
+A: Molasses dan listrik co-gen. Total kontribusi 15–25%
+   revenue, jadi bukan sekadar tambahan.
+
+Q: Bottleneck terbesar?
+A: Kualitas tebu (pol <8%) dan breakdown mesin gilingan/boiler.
+   Mitigasinya: QC tebu di emplasement + preventive maintenance.
+
+Q: Berapa margin keuntungan?
+A: EBITDA 15–25% dalam kondisi normal. Sangat sensitif terhadap
+   rendemen dan harga gula.
+
+Q: Peluang improvement paling realistis?
+A: Digitalisasi (IoT/SCADA) sebagai quick win, lalu
+   co-generation listrik. ROI relatif cepat.
+
+Q: KPI yang paling penting?
+A: Rendemen. Karena 1% kenaikan rendemen bisa naikkan profit
+   secara signifikan.
+
+Q: Lead time tebu sampai gula?
+A: 24–48 jam total. Karena setiap jam delay setelah tebang =
+   pol turun 0,1%.
+
+Q: Kenapa pabrik cuma operasi 6–7 bulan?
+A: Musim tebu hanya April–November. Off-season dipakai untuk
+   maintenance & overhaul.
+
+Q: Beda gula SHS vs gula putih konsumen?
+A: SHS: gula kristal mentah, ICUMSA 150–600. Gula putih:
+   refined, ICUMSA <45. Yang dijual ke konsumen biasanya hasil
+   refinery.
+
+Q: Bagasse buat apa selain bahan bakar?
+A: Bisa jadi pellet biofuel, kertas, atau bahan baku
+   biomaterial. Tapi mayoritas masih untuk boiler & co-gen.
+
+Q: Apa yang akan kamu pelajari lebih dalam?
+A: "Saya tertarik mendalami digitalisasi proses dan
+   peningkatan rendemen, Pak/Bu. Itu pertemuan tantangan dan
+   peluang yang paling besar dampaknya."
+
+================================================================
+GLOSARIUM ISTILAH PENTING
+================================================================
+Rendemen   : % gula dari tebu (target 8–10%)
+Pol        : kadar sukrosa di tebu/nira
+Brix       : total padatan terlarut di nira (%)
+Recovery   : % pol yang berhasil diekstrak (target 92–96%)
+HK         : Hablur Kristal
+Massecuite : campuran kristal + larutan induk hasil masakan
+SHS        : Superior High Sugar (gula kristal pol ≥99,3%)
+Molasses   : tetes, sisa cair setelah kristalisasi
+Bagasse    : ampas tebu (serat) sisa milling
+Blotong    : filter cake dari clarification (jadi pupuk)
+TCD        : Ton Cane per Day (kapasitas giling)
+ICUMSA     : standar warna gula (semakin rendah = makin putih)
+HPP        : Harga Pokok Produksi
+Co-gen     : pembangkit listrik dari uap boiler (dari bagasse)
+OEE        : Overall Equipment Effectiveness
+PROPER     : program penilaian kinerja lingkungan KLHK
+
+================================================================
+RINGKASAN BELAJAR CEPAT (BACA H-1 PRESENTASI)
+================================================================
+1) Pabrik gula = bisnis terintegrasi (kebun → pabrik → jual).
+2) Output: gula (utama) + 4 by-product (15–25% revenue).
+3) Proses: 9 tahapan, lead time 24–48 jam, beroperasi 6–7
+   bulan/tahun (April–November).
+4) KPI raja: RENDEMEN (8–10%). Lalu recovery, kapasitas, losses.
+5) Tantangan: produktivitas rendah, impor 50%, teknologi tua.
+6) Peluang: digitalisasi, modernisasi, co-gen, diversifikasi
+   → potensi +20–30% EBITDA.
+7) Yang dimonitor manajemen: harian (operasional), mingguan
+   (kualitas), bulanan (finansial).
+
+Mindset: "Saya tahu big picture-nya. Kalau detail teknisnya
+ditanya dan saya belum paham, saya akan jujur dan tindak
+lanjuti—bukan menebak."
+================================================================
